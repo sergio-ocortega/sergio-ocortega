@@ -6,76 +6,34 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="refstyle.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-                        <!-- NAVIGATION BAR -->
     <nav>
-        <div class="nav-container">
-            <div class="title-container">
-                <h1>Portfolio Project</h1>
-            </div>
-            <div class="buttons-container">
-                <div class="button" id="bttn-1">
-                    <h2>Gallery</h2>
-                </div>
-                <div class="button" id="bttn-2">
-                    <h2>About Me</h2>
-                </div>
-                <div class="button" id="bttn-3">
-                    <h2>Contact</h2>
-                </div>
-            </div>
-        </div>
+
     </nav>
-                        <!-- NAVIGATION BAR END -->
-                        <!-- GALLERY -->
     <main>
-        <section class="gallery">
-            <div class="gallery-container">
-                <img src="files/photo_5127750730617301355_w.jpg" class="gallery_img">
-                <img src="files/DSC06461_baja.jpg" class="gallery_img">
-                <img src="files/DSC06458_baja.jpg" class="gallery_img">
-                <img src="files/DSC06290_baja.jpg" class="gallery_img">
-                <img src="files/DSC06199_baja.jpg" class="gallery_img">
-                <img src="files/DSC06143_baja.jpg" class="gallery_img">
-            </div>
-        </section>
-                            <!-- GALLERY END -->
-                            <!-- ABOUT ME -->
-        <section class="about-me">
-        <div class="aboutme-container">
-            <div class="aboutme-title" id="aboutme-title">
-                <h1>About Me</h1>
-            </div>
-            <div class="bio-container">
-                <img src="files/profile.jpg">
-                <h2>My name is Sergio</h2>
-                <p>I’m 27 years old and I’m from Chile, currently trying to make a living by cleaning  in Berlin and pay for my studies (Full-Stack Web Development). I only started working in this around 5 months ago, in which I’ve had my fair share of experience cleaning around X apartments, some clubs, offices and huge venues. 
-                    Back home I worked in many things, mostly linked to media: camera-man and sound-mixer in documentaries/short films, some graphic design / video editing, etc. But most of my experience comes from around 9 years working at a Cultural Center / Archive, in which I was in charge of the digitizing and managing of old photos, films and newspapers from ca1900 - ca2000 and helping putting together exhibitions for the public to see them. 
-                </p>
-                <div class="contact-container">
-                    <h1 id="contactButton">Contact</h1>
-                    <div class="contact-details" id="contact-details">
-                    <h4>Phone:</h4>
-                    <h3>+49 176 75206504</h3>
-                    <h4>Email:</h4>
-                    <h3>sergio.ocortega@gmail.com</h3>
-                    </div>
+        <section class="references">
+            <div class="references-container">
+                <div class="references-block">
+                    <div class="ref" id="ref1">
+                       <h6 id="ref1Name">Torsten</h6>
+                       <p id="ref1Content">"Es war alles perfekt. Sehr sorgfältige Reinigung."</p>
+                   </div>
+                   <div class="ref" id="ref2">
+                       <h6 id="ref2Name">Chiyoko</h6>
+                       <p id="ref2Content">"Sergio did an amazing job!!! He was absolutely punctual, friendly and kind, energetic, and left my apartment not only sparkling clean, but also tidier than before. Absolutely highly recommended! Great work, thank you Sergio! Don't hesitate to book a request with him!"</p>
+                   </div>
+                </div>
+                <div class="button-container">
+                <button id="loadMoreRefs">Load more</button>
                 </div>
             </div>
-            </div>
-        </div>
         </section>
-
-
-    </main>
-
-
-
+    </main> 
         <script src="script.js" async defer></script>
     </body>
 </html>

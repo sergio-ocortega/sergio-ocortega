@@ -1,0 +1,65 @@
+.references {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: auto;
+    align-items: center;
+}
+
+.references-block {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    padding: 70px 30px;
+}
+.references-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    min-height: 75%;
+    max-height: 95%;
+    min-width: 65%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.ref {
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    justify-self: center;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.ref h6 {
+    margin: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.ref p {
+    font-size: 25px;
+}
+
+.button-container {
+    align-self: end;
+    margin: 30px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    height: 100%;
+    min-width: 20%;
+}
